@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page Index</title>
+    <style>
+        /* Base styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        ul {
+            list-style-type: none;
+            /* Removes the bullet points */
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* --- New Layout Styles --- */
+
+        /* 1. Create a container for the list and image */
+        .layout-container {
+            display: flex;
+            /* Enables flexbox layout */
+            gap: 50px;
+            /* Adds space between the list and the image */
+            align-items: flex-start;
+            /* Aligns items to the top */
+        }
+
+        /* 2. Style the image */
+        .list-image {
+            max-width: 300px;
+            /* Limits the image size */
+            height: auto;
+            border: 1px solid #ccc;
+            /* Optional: adds a border */
+        }
+
+        /* --- Link Color Control --- */
+        
+        /* Set the color for unvisited links to black */
+        a:link {
+            color: black;
+        }
+
+        /* Force the color for visited links to be black */
+        a:visited {
+            color: black; 
+        }
+
+        /* Optional: Set a color when the mouse is over the link (hover) */
+        a:hover {
+            color: #09498e; /* Dark gray for a slight change */
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to *The Villainous Family Is Against Independece*</h1>
+
+    <div class="layout-container">
+        <div>
+            <p>Please select a page:</p>
+            <ul>
+                <li>
+                    <a href="part1.html"><b>Chapters 01-50</b></a>
+                </li>
+                <li>
+                    <a href="part2.html"><b>Chapters 51-100</b></a>
+                </li>
+                <li>
+                    <a href="part3.html"><b>Chapters 101-150 (133)</b></a>
+                </li>
+                <li>
+                    <a href=""><b>*Chapters 151-200</b></a>
+                </li>
+                <li>
+                    <a href=""><b>*Chapters 201-250</b></a>
+                </li>
+                <li>
+                    <a href=""><b>*Chapters 251-304</b></a>
+                </li>
+            </ul>
+        </div>
+
+        <img src="cover_image.jpg" alt="Cover Image for The Villainous Family" class="list-image">
+
+    </div>
+
+</body>
+
+</html>
